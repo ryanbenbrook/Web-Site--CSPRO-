@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> The Game </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<header>
+   <h1>CS:PRO</h1>
+   <h2>Your source for all things Professional Counter-Strike</h2>
+</header>
+  
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="proteams.html">Pro Teams</a></li>
+    <li><a href="tournaments.html">Tournaments</a></li>
+    <li><a href="standings.html">Standings</a></li>
+	<li><a href="game.html">CS:GO</a></li>
+  </ul>
+</nav>
+
+<article>
+  <img src="images/csgologo.png" alt="CSGO Logo" height="64" width="512" /> 
+  <h3 style="clear:left">The Game</h3>
+  <p style="clear:left">Counter Strike is a multiplayer first-person shooter that was developed by <a href="http://www.valvesoftware.com/"><em>Valve Corporation</em></a>. It is one of the few shooters that has managed to launch itself into a highly competitive eSports staple. The game itself focuses on team play where each team has an objective to either defend or attack. In the competitive scene, only maps with a demolition objective are played. You win a round by either completing the objective for your team, or eliminating every player on the other team. Each player only has one life each round, and the damage is very realistic, so it doesn't take many shots to kill another player. Each round players will earn in game currency that they use to purchase their gear for the round. If the player survives through to the next round, they get to keep the gear they had from the round before. During these rounds, each players' stats are tracked and they are ranked on a leaderboard. </p>
+  <h3>Do you own it? Tell us what you think:</h3>
+<form name "gamerating" action "gamerating.php" method "get">
+<br>
+Name: <input type="text" name="name"> <br><br>
+Steam-ID: <input type="text" name="address"> <br><br>
+E-Mail: <input type="text" name="email"> <br><br>
+	<legend><u>Rating:</u></legend>
+		<input type="radio" name="Rating" id="option1" value="1">
+		<label for="option1">1(worst)</label>
+		<input type="radio" name="Rating" id="option2" value="2">
+		<label for="option2">2</label>
+		<input type="radio" name="Rating" id="option3" value="3">
+		<label for="option3">3</label>
+		<input type="radio" name="Rating" id="option4" value="4">
+		<label for="option4">4</label>
+		<input type="radio" name="Rating" id="option5" value="5">
+		<label for="option5">5(best)</label>
+		<br><br>
+</form>
+<form method="link" action="confirmed.html">
+<input type="submit" value="Submit">
+</form>
+  
+  </article>
+
+<footer>
+<script>
+var Today = Date();
+document.write(Today);
+</script>
+</footer>
+
+</div>
+
+</body>
+</html>
+

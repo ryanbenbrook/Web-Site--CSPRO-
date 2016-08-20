@@ -1,0 +1,88 @@
+div.container {
+	width: 100%;
+	border: 1px solid black;
+	font-size: 18px;}
+
+header, footer {
+	padding: 1em;
+	clear: left;
+	color: white;
+	background-color: black;
+	text-align: center;}
+
+nav {
+	float: left;
+	max-width: 160px;
+	margin: 0;
+	padding 1em;}
+	
+nav ul {
+	list-style-type: none;
+	padding: 1em;}
+	
+nav ul a {
+	text-decoration: none;}
+	
+article {
+	margin-left: 170px;
+	border-left: 1px solid black;
+	padding: 1em;
+	overflow: hidden;}
+	
+img {
+	float: left;
+	margin 0 0 10px 10px;
+	}
+	
+p {
+font-size: 16px;
+}
+
+h1 {
+font-size: 32px;
+}
+
+h2 {
+font-size: 18px;
+}
+
+h3 {
+padding-top: 1em;
+font-size: 16px;
+font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+ul { 
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+ul.team {
+	display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+	border-bottom: 1px solid black;
+}
